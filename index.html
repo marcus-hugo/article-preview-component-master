@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <!-- displays site properly based on user's device -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <!-- css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="public/styles.css">
   <title>Frontend Mentor | Article preview component</title>
 </head>
+
 <body>
+  <main class="card">
+    <img class="card__bg-img" src="images/drawers.jpg" alt="">
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+    <h1 class="card__hd-one">Shift the overall look and feel by adding these wonderful
+      touches to furniture in your home</h1>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+    <p class="card__p">Ever been in a room and felt like something was missing? Perhaps
+      it felt slightly bare and uninviting. I’ve got some simple tips
+      to help you make any room feel complete.</p>
 
-  Michelle Appleton
-  28 Jun 2020
+    <!-- Social links -->
+    <div class="s-links">
+      <img class="s-links__img-hero" src="images/avatar-michelle.jpg" alt="">
+      <h2 class="s-links__hd-two">Michelle Appleton</h2>
+      <time class="s-links__time"> 28 Jun 2020</time>
+    </div>
 
-  Share
-  
+    <button class="s-links__share">
+       <svg class="s-links__arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path class="path" fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+    </button>
+      
+    <!-- Social links active -->
+    <div class="s-links-a"> 
+      <span class="s-links-a__subt">Share</span>
+      <a class="s-links-a__fb" href=""><img class="icon" src="images/icon-facebook.svg" alt=""></a>
+      <a class="s-links-a__tw" href=""><img class="icon" src="images/icon-twitter.svg" alt=""></a>
+      <a class="s-links-a__pin" href=""><img class="icon" src="images/icon-pinterest.svg" alt=""></a>
+    </div>
+
+  </main>
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Marcus Hugo</a>.
   </footer>
-<!-- script -->
+  <!-- script -->
   <script src="app/app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,13 @@
+/* -------------- */
+/* Base           */
+/* -------------- */
+
+body {
+    background-color: var(--light-grayish-blue);
+    font-family: var(--ff-manrope);
+    font-size: var(--fs-base);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
