@@ -188,11 +188,6 @@ body {
   align-self: center;
 }
 
-.spin {
-  transform: rotate(360deg);
-  transition: transform 500ms linear;
-}
-
 .s-links-a {
   display: grid;
   grid-template-columns: 35% 1fr 1fr 1fr 35%;

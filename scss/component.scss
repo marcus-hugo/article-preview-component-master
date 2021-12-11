@@ -94,11 +94,6 @@
     }
 }
 
-.spin {
-    transform: rotate(360deg);
-    transition: transform 500ms linear;
-}
-
 // Active state
 .s-links-a {
     display: grid;

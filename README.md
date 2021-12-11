@@ -51,6 +51,7 @@ Users should be able to:
 ### What I learned
 
 - How to make a speech bubble using psuedo elements ::before and ::after.
+- Howt to add css animations when a button is clicked.
 
 ### Continued development
 
@@ -58,7 +59,7 @@ adding css animations with vanilla js.
 
 ### Useful resources
 
-
+https://betterprogramming.pub/how-to-restart-a-css-animation-with-javascript-and-what-is-the-dom-reflow-a86e8b6df00f
 
 ## Author
 
