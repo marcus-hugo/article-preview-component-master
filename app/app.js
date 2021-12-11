@@ -7,10 +7,4 @@ const path = document.querySelector('path');
 btn.addEventListener('click', function() {
    btn.classList.toggle('spin');
    popup.classList.toggle('active');
-
-   for (let icon of icons) {
-    //    icon.classList.remove('icon');
-        // icon.classList.toggle('icon-grow');
-    }
-    
 })
