@@ -1,0 +1,55 @@
+@media(min-width: 730px) {
+    .card {
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+
+    .image-wrapper {
+        width: 285px;
+        height: 280px;  
+        background: url(../images/drawers.jpg);
+        background-size: cover;
+        border-radius: 10px 0 0 10px;
+    }
+
+
+    .card__bg-img {
+        display: none;
+    }
+
+    .bottom-container {
+        width: 445px;
+    }
+
+    .card__hd-one {
+        font-size: 20px;
+    }
+
+    .bottom-container {
+        position: relative;
+    }
+
+    .s-links__share {
+        right: -376px;
+    }
+    
+    .s-links-a {
+        width: 248px;
+        left: 260px;
+        bottom: 100px;
+        border-radius: 10px 10px 10px 10px;
+        grid-template-columns: 46% 1fr 1fr 1fr 12%;
+    }
+
+    .s-links-a::after {
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 0;
+        border: 16px solid transparent;
+        border-top-color: var(--very-dark-grayish-blue);
+        top: 63px;
+        right: 100px;
+    }
+}

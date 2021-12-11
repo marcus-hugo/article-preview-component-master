@@ -75,13 +75,13 @@
     background: hsl(210, 46%, 95%);
     border: none;
     border-radius: 50%;
-    display: grid;
+   
     position: relative;
     bottom: 36px;
     right: -271px;
     z-index: 1;
     transform: rotate(-360deg);
-    transition: all 500ms linear;
+    transition: transform 500ms linear;
 
     &:hover {
         cursor: pointer;
@@ -96,7 +96,7 @@
 
 .spin {
     transform: rotate(360deg);
-    transition: all 500ms linear;
+    transition: transform 500ms linear;
 }
 
 // Active state
@@ -145,23 +145,24 @@
         justify-self: center;
 
     }
+}
 
-    &icon {
-        transition: all 250ms cubic-bezier(.68, -0.55, .27, 1.55);
-    }
+.icon {
+    transition: all 250ms cubic-bezier(.68, -0.55, .27, 1.55);
+}
 
-    &icon:hover {
-        transform: scale(1.25);
-        transition: all 250ms cubic-bezier(.68, -0.55, .27, 1.55);
-    }
+.icon:hover {
+    transform: scale(1.25);
+    transition: all 250ms cubic-bezier(.68, -0.55, .27, 1.55);
 }
 
 .active {
     visibility: visible;
     height: 64px;
     transform: scale(1);
-    transition: all 250ms linear;
+    transition: transform 250ms linear;
 }
+
 // svg
 .path:hover {
     fill: #fff;

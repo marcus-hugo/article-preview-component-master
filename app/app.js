@@ -10,7 +10,7 @@ btn.addEventListener('click', function() {
 
    for (let icon of icons) {
     //    icon.classList.remove('icon');
-        icon.classList.toggle('icon-grow');
+        // icon.classList.toggle('icon-grow');
     }
     
 })
