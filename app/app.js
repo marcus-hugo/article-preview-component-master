@@ -5,6 +5,10 @@ const icons = document.querySelectorAll('.icon');
 const path = document.querySelector('path');
 
 btn.addEventListener('click', function() {
-   btn.classList.toggle('spin');
+   
+   btn.classList.remove('animate');
+   void btn.offsetWidth;
+   btn.classList.add('animate');
+   
    popup.classList.toggle('active');
 })

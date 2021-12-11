@@ -177,12 +177,11 @@ body {
   bottom: 36px;
   right: -271px;
   z-index: 1;
-  transform: rotate(-360deg);
-  transition: transform 500ms linear;
 }
 .s-links__share:hover {
   cursor: pointer;
   background: var(--grayish-blue);
+  transform: scale(1.1);
 }
 .s-links__share__arrow {
   justify-self: center;
@@ -319,6 +318,27 @@ body {
     border-top-color: var(--very-dark-grayish-blue);
     top: 63px;
     right: 100px;
+  }
+}
+.animate {
+  animation-name: wobble;
+  animation-delay: 0s;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-alternate: normal;
+  animation-timing-function: ease-in-out;
+}
+
+/* Animation */
+@keyframes wobble {
+  25% {
+    transform: translate(5px) rotate(10deg);
+  }
+  50% {
+    transform: translate(-5px) rotate(-10deg);
+  }
+  75% {
+    transform: transform(5px) rotate(10deg);
   }
 }
 

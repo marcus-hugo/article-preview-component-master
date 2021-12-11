@@ -80,12 +80,12 @@
     bottom: 36px;
     right: -271px;
     z-index: 1;
-    transform: rotate(-360deg);
-    transition: transform 500ms linear;
+    
 
     &:hover {
         cursor: pointer;
         background: var(--grayish-blue);
+        transform: scale(1.10);
     }
 
     &__arrow {
